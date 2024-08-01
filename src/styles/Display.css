@@ -1,0 +1,31 @@
+/* Display.css */
+.display-wrapper {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .display {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 5px;
+    text-align: right;
+  }
+  
+  .clear-button {
+    padding: 27px 21px; /* Adjust padding to change button size */
+    font-size: 1.5em; /* Adjust font size if necessary */
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clear-button:hover {
+    background-color: #777;
+  }
+  
